@@ -1,5 +1,9 @@
 #!/usr/bin/env python
-from flask import Flask, render_template, flash, request, jsonify, Markup
+from flask import Flask, render_template, flash, request, jsonify
+from markupsafe import Markup
+
+
+
 
 # model constants
 # set up constants for our coefficients 
